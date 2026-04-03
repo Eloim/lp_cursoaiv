@@ -1,4 +1,5 @@
 import SectionWrapper from "./SectionWrapper";
+import { ChevronRight } from "lucide-react";
 
 const PreVSLSection = () => (
   <SectionWrapper alternate>
@@ -8,7 +9,7 @@ const PreVSLSection = () => (
     </h2>
 
     <p className="text-muted-foreground text-center text-lg mb-8">
-      E o pior: 👉 <strong className="text-foreground">você não sabe o que é</strong>
+      E o pior: <strong className="text-foreground text-xl">você não sabe o que é</strong>
     </p>
 
     <p className="text-muted-foreground text-center mb-6">Nesse vídeo, você vai entender:</p>
@@ -22,7 +23,7 @@ const PreVSLSection = () => (
         "Por que alguns vídeos prendem atenção… e outros são ignorados",
       ].map((item, i) => (
         <li key={i} className="flex items-start gap-3 text-secondary-foreground">
-          <span className="text-primary mt-1">▸</span>
+          <ChevronRight className="w-5 h-5 text-primary mt-1 shrink-0" />
           <span>{item}</span>
         </li>
       ))}
@@ -30,7 +31,7 @@ const PreVSLSection = () => (
 
     {/* VSL placeholder */}
     <div className="mt-12 aspect-video bg-secondary rounded-lg border border-gold flex items-center justify-center">
-      <span className="text-muted-foreground text-lg">🎬 Vídeo de Vendas (VSL)</span>
+      <span className="text-muted-foreground text-lg">Vídeo de Vendas (VSL)</span>
     </div>
   </SectionWrapper>
 );

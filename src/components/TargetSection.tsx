@@ -27,7 +27,7 @@ const TargetSection = () => (
     </div>
 
     <div className="text-center">
-      <CTAButton>👉 Quero parar de parecer amador nos meus vídeos</CTAButton>
+      <CTAButton>Quero parar de parecer amador nos meus vídeos</CTAButton>
     </div>
   </SectionWrapper>
 );

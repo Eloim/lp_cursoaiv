@@ -16,9 +16,9 @@ const StorySection = () => (
         <p>Até entender uma coisa:</p>
       </div>
 
-      <div className="mt-6 space-y-2 text-xl font-display font-bold">
-        <p>👉 Não é sobre técnica</p>
-        <p className="text-gradient-gold">👉 É sobre percepção</p>
+      <div className="mt-6 space-y-2">
+        <p className="text-foreground font-display font-bold text-xl">Não é sobre técnica</p>
+        <p className="text-gradient-gold font-display font-bold text-2xl md:text-3xl">É sobre percepção</p>
       </div>
 
       <p className="mt-6 text-muted-foreground text-lg">

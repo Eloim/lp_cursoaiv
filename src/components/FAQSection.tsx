@@ -1,4 +1,5 @@
 import SectionWrapper from "./SectionWrapper";
+import { Mail } from "lucide-react";
 
 const faqs = [
   { q: "Funciona com celular?", a: "Sim. Inclusive é o foco." },
@@ -18,13 +19,14 @@ const FAQSection = () => (
       {faqs.map((faq, i) => (
         <div key={i} className="p-5 rounded-lg bg-card border border-border">
           <p className="font-display font-semibold text-foreground mb-2">{faq.q}</p>
-          <p className="text-muted-foreground">👉 {faq.a}</p>
+          <p className="text-muted-foreground">{faq.a}</p>
         </div>
       ))}
     </div>
 
-    <div className="mt-12 text-center p-6 rounded-lg bg-secondary/30 border border-border max-w-xl mx-auto">
-      <h3 className="font-display font-bold text-lg mb-2">📩 Suporte</h3>
+    <div className="mt-12 text-center p-6 rounded-lg bg-secondary/30 border border-border max-w-xl mx-auto flex flex-col items-center gap-3">
+      <Mail className="w-7 h-7 text-primary" />
+      <h3 className="font-display font-bold text-lg">Suporte</h3>
       <p className="text-muted-foreground">
         Você não fica sozinho. Suporte via e-mail para dúvidas, direcionamento e ajuda na aplicação.
       </p>

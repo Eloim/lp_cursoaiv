@@ -1,15 +1,16 @@
 import SectionWrapper from "./SectionWrapper";
 import CTAButton from "./CTAButton";
+import { Video, Brain, ClipboardCheck, FileText, Target, BarChart3, GitBranch, Mail, ShieldCheck } from "lucide-react";
 
 const items = [
-  { icon: "🎬", text: "Curso completo Autoridade Instantânea em Vídeo" },
-  { icon: "🧠", text: "Método estruturado passo a passo" },
-  { icon: "📦", text: "Checklists práticos (setup, gravação, edição, publicação)" },
-  { icon: "📄", text: "Templates de enquadramento e ambiente" },
-  { icon: "🎯", text: "Exercícios de presença e comunicação" },
-  { icon: "📊", text: "Guia de exportação e formatos" },
-  { icon: "📁", text: "Fluxograma completo do método" },
-  { icon: "📩", text: "Suporte por e-mail" },
+  { icon: Video, text: "Curso completo Autoridade Instantânea em Vídeo" },
+  { icon: Brain, text: "Método estruturado passo a passo" },
+  { icon: ClipboardCheck, text: "Checklists práticos (setup, gravação, edição, publicação)" },
+  { icon: FileText, text: "Templates de enquadramento e ambiente" },
+  { icon: Target, text: "Exercícios de presença e comunicação" },
+  { icon: BarChart3, text: "Guia de exportação e formatos" },
+  { icon: GitBranch, text: "Fluxograma completo do método" },
+  { icon: Mail, text: "Suporte por e-mail" },
 ];
 
 const OfferSection = () => (
@@ -21,7 +22,7 @@ const OfferSection = () => (
     <div className="grid md:grid-cols-2 gap-4 max-w-3xl mx-auto mb-12">
       {items.map((item, i) => (
         <div key={i} className="flex items-center gap-3 p-4 rounded-lg bg-secondary/40 border border-border">
-          <span className="text-2xl">{item.icon}</span>
+          <item.icon className="w-6 h-6 text-primary shrink-0" />
           <span className="text-secondary-foreground">{item.text}</span>
         </div>
       ))}
@@ -31,11 +32,12 @@ const OfferSection = () => (
       <p className="text-muted-foreground line-through text-lg mb-1">De R$197</p>
       <p className="font-display font-bold text-5xl md:text-6xl text-gradient-gold mb-2">R$67</p>
       <p className="text-muted-foreground text-sm mb-6">Pagamento único · Parcelamento via Hotmart</p>
-      <CTAButton className="w-full">👉 Quero acesso agora</CTAButton>
+      <CTAButton className="w-full">Quero acesso agora</CTAButton>
     </div>
 
-    <div className="text-center p-6 rounded-lg bg-secondary/30 border border-border max-w-2xl mx-auto">
-      <h3 className="font-display font-bold text-xl mb-3">🔒 Garantia de 7 dias</h3>
+    <div className="text-center p-6 rounded-lg bg-secondary/30 border border-border max-w-2xl mx-auto flex flex-col items-center gap-3">
+      <ShieldCheck className="w-8 h-8 text-primary" />
+      <h3 className="font-display font-bold text-xl">Garantia de 7 dias</h3>
       <p className="text-muted-foreground">
         Se entrar, assistir e sentir que não é pra você, é só pedir o reembolso.
         Sem burocracia. Sem perguntas.

@@ -29,10 +29,10 @@ const AuthoritySection = () => (
       ))}
     </div>
 
-    <div className="text-center space-y-2 text-lg">
-      <p>👉 Eu não aprendi vídeo no Instagram</p>
-      <p className="text-gradient-gold font-semibold">
-        👉 Eu aprendi na prática, no set, no erro e na execução real
+    <div className="text-center space-y-2">
+      <p className="text-foreground text-lg">Eu não aprendi vídeo no Instagram</p>
+      <p className="text-gradient-gold font-display font-bold text-xl md:text-2xl">
+        Eu aprendi na prática, no set, no erro e na execução real
       </p>
     </div>
   </SectionWrapper>
