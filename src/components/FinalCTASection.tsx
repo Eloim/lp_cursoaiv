@@ -18,7 +18,7 @@ const FinalCTASection = () => (
         Enquanto você espera, outros estão sendo escolhidos.
       </p>
       <CTAButton className="text-xl px-12 py-5">
-        🚀 Quero parecer profissional nos meus vídeos agora
+        Quero parecer profissional nos meus vídeos agora
       </CTAButton>
       <p className="text-muted-foreground text-sm mt-6">
         Acesso imediato · Garantia de 7 dias · Pagamento seguro

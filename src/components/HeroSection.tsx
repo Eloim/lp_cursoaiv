@@ -35,7 +35,7 @@ const HeroSection = () => (
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.4 }}
       >
-        <CTAButton>👉 Quero parar de parecer amador nos meus vídeos</CTAButton>
+        <CTAButton>Quero parar de parecer amador nos meus vídeos</CTAButton>
       </motion.div>
     </div>
   </section>

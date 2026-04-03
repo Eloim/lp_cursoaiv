@@ -1,4 +1,5 @@
 import SectionWrapper from "./SectionWrapper";
+import { X, Check } from "lucide-react";
 
 const without = ["Tentativa e erro", "Vídeos inconsistentes", "Baixa retenção", "Aparência amadora", "Frustração constante"];
 const withMethod = ["Clareza total", "Ajustes rápidos", "Vídeos profissionais", "Mais atenção", "Mais autoridade"];
@@ -11,22 +12,22 @@ const ComparisonSection = () => (
 
     <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
       <div className="p-6 rounded-xl bg-destructive/10 border border-destructive/20">
-        <h3 className="font-display font-bold text-lg mb-4 text-center">❌ Sem o método</h3>
+        <h3 className="font-display font-bold text-lg mb-4 text-center">Sem o método</h3>
         <ul className="space-y-3">
           {without.map((item, i) => (
             <li key={i} className="text-muted-foreground flex items-center gap-2">
-              <span className="text-destructive">✕</span> {item}
+              <X className="w-4 h-4 text-destructive shrink-0" /> {item}
             </li>
           ))}
         </ul>
       </div>
 
       <div className="p-6 rounded-xl bg-primary/10 border border-gold/30 glow-gold-sm">
-        <h3 className="font-display font-bold text-lg mb-4 text-center">✅ Com o método</h3>
+        <h3 className="font-display font-bold text-lg mb-4 text-center">Com o método</h3>
         <ul className="space-y-3">
           {withMethod.map((item, i) => (
             <li key={i} className="text-foreground flex items-center gap-2">
-              <span className="text-primary">✓</span> {item}
+              <Check className="w-4 h-4 text-primary shrink-0" /> {item}
             </li>
           ))}
         </ul>

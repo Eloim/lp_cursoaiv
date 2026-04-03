@@ -17,12 +17,12 @@ const PainSection = () => (
         </p>
       </div>
 
-      <p className="text-foreground text-lg mb-4">O que você quer não é aprender vídeo.</p>
+      <p className="text-foreground text-lg mb-6">O que você quer não é aprender vídeo.</p>
 
-      <div className="space-y-2 text-xl font-display font-bold">
-        <p className="text-gradient-gold">👉 Você quer ser levado a sério</p>
-        <p className="text-gradient-gold">👉 Você quer parar de ser ignorado</p>
-        <p className="text-gradient-gold">👉 Você quer parecer maior do que é hoje</p>
+      <div className="space-y-3">
+        <p className="text-gradient-gold font-display font-bold text-xl md:text-2xl">Você quer ser levado a sério</p>
+        <p className="text-gradient-gold font-display font-bold text-xl md:text-2xl">Você quer parar de ser ignorado</p>
+        <p className="text-gradient-gold font-display font-bold text-xl md:text-2xl">Você quer parecer maior do que é hoje</p>
       </div>
     </div>
   </SectionWrapper>

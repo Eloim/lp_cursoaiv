@@ -21,9 +21,9 @@ const ProductSection = () => (
     </div>
 
     <div className="mt-10 text-center">
-      <p className="text-lg text-foreground">👉 Você não vai estudar…</p>
-      <p className="text-gradient-gold font-display font-bold text-xl">
-        👉 Você vai ajustar e ver resultado no mesmo dia
+      <p className="text-lg text-foreground mb-2">Você não vai estudar…</p>
+      <p className="text-gradient-gold font-display font-bold text-2xl md:text-3xl">
+        Você vai ajustar e ver resultado no mesmo dia
       </p>
     </div>
   </SectionWrapper>

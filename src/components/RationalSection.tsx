@@ -20,8 +20,8 @@ const RationalSection = () => (
         ))}
       </div>
 
-      <p className="text-gradient-gold font-display font-bold text-xl">
-        👉 Não é opinião. É comportamento humano.
+      <p className="text-gradient-gold font-display font-bold text-xl md:text-2xl">
+        Não é opinião. É comportamento humano.
       </p>
     </div>
   </SectionWrapper>
