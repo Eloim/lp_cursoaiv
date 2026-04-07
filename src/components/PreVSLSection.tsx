@@ -2,7 +2,7 @@ import SectionWrapper from "./SectionWrapper";
 
 const PreVSLSection = () => (
   <SectionWrapper alternate>
-    <div className="max-w-3xl mx-auto text-center space-y-6">
+    <div className="max-w-3xl mx-auto text-center space-y-2">
       <h2 className="font-display font-bold text-2xl md:text-4xl">
         Se você grava vídeos, mas sente que tem algo errado…{" "}
         <span className="text-gradient-gold">provavelmente tem.</span>
