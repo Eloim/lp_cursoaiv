@@ -12,13 +12,13 @@ const FinalCTASection = () => (
     >
       <h2 className="font-display font-bold text-3xl md:text-5xl mb-6">
         Chegou a hora de{" "}
-        <span className="text-gradient-gold">parecer profissional</span>
+        <span className="text-gradient-gold">acabar com o amadorismo</span>
       </h2>
       <p className="text-muted-foreground text-lg mb-10">
-        Enquanto você espera, outros estão sendo escolhidos.
+        Enquanto você espera, outros estão sendo resolvendo.
       </p>
       <CTAButton className="text-xl px-12 py-5">
-        Quero parecer profissional nos meus vídeos agora
+        Quero melhorar meus vídeos agora
       </CTAButton>
       <p className="text-muted-foreground text-sm mt-6">
         Acesso imediato · Garantia de 7 dias · Pagamento seguro
