@@ -32,21 +32,23 @@ const MethodSection = () => (
       Um processo simples, direto e aplicável em poucas horas:
     </p>
 
-    <div className="space-y-6">
+    <div className="grid md:grid-cols-2 gap-4 lg:gap-6">
       {steps.map((step, i) => (
         <motion.div
           key={i}
-          initial={{ opacity: 0, x: -20 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: i * 0.1 }}
-          className="flex gap-4 items-start p-6 rounded-lg bg-secondary/50 border border-gold/20 hover:border-gold/50 transition-colors"
+          className={`flex gap-4 items-start p-6 rounded-xl bg-secondary/50 border border-gold/20 hover:border-gold/50 transition-colors ${i === 4 ? "md:col-span-2 md:max-w-md md:mx-auto" : ""}`}
         >
-          <span className="text-primary font-display font-bold text-2xl">{step.num}</span>
+          <span className="flex items-center justify-center w-10 h-10 rounded-full bg-primary/20 text-primary font-display font-bold text-lg shrink-0">
+            {step.num}
+          </span>
           <div>
             <h3 className="font-display font-semibold text-lg text-foreground">{step.title}</h3>
-            <p className="text-secondary-foreground">{step.desc}</p>
-            <p className="text-muted-foreground text-sm mt-1">({step.detail})</p>
+            <p className="text-secondary-foreground text-sm">{step.desc}</p>
+            <p className="text-muted-foreground text-xs mt-1">({step.detail})</p>
           </div>
         </motion.div>
       ))}
