@@ -7,8 +7,7 @@ const PreVSLSection = () => (
         Se você grava vídeos, mas sente que tem algo errado…{" "}
         <span className="text-gradient-gold">provavelmente tem.</span>
       </h2>
-
-      <p className="text-muted-foreground text-lg md:text-xl">
+      <p className="-mt-4 text-muted-foreground text-lg md:text-xl">
         E o pior: <strong className="text-foreground text-xl md:text-2xl">você não sabe o que é</strong>
       </p>
     </div>
