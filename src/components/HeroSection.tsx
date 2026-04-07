@@ -33,7 +33,7 @@ const HeroSection = () => (
         transition={{ duration: 0.8, delay: 0.2 }}
         className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-10 leading-relaxed"
       >
-        Aprenda como transformar qualquer vídeo em uma apresentação profissional em até 1 dia —
+        Aprenda como transformar qualquer vídeo em uma apresentação profissional em até 1 dia 
         usando apenas o que você já tem, sem equipamento caro e sem edição complexa
       </motion.p>
 
