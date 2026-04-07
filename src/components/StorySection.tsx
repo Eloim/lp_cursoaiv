@@ -7,12 +7,11 @@ const StorySection = () => (
         Sobre o Autor
       </h2>
 
-      <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
+      <div className="space-y-3 text-lg text-muted-foreground leading-relaxed">
         <p>Eu não comecei como diretor.</p>
-        <p>Comecei carregando equipamento.</p>
-        <p>Queria trabalhar com som.</p>
-        <p>Depois de anos, fui entrando mais fundo… estudando, errando, aprendendo.</p>
-        <p>Passei por estúdio, gravação, engenharia, cinema…</p>
+        <p>Comecei carregando equipamento, como assistente.</p>
+        <p>Depois de anos, fui aperfeiçoando… estudando, errando, aprendendo.</p>
+        <p>Passei por empresa de som e luz, estúdio de gravação, produtoras de publicidade e corporativo, cinema…</p>
         <p>Até entender uma coisa:</p>
       </div>
 
@@ -23,7 +22,7 @@ const StorySection = () => (
 
       <p className="mt-6 text-muted-foreground text-lg">
         Porque hoje, com muito menos do que eu tinha lá atrás…
-        qualquer pessoa consegue parecer profissional. <strong className="text-foreground">Se souber o que ajustar.</strong>
+        qualquer pessoa consegue fazer uma boa gravação. <strong className="text-foreground">Se souber o que ajustar.</strong>
       </p>
     </div>
   </SectionWrapper>
