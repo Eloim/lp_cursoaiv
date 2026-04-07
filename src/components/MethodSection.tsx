@@ -12,7 +12,7 @@ const steps = [
 
 const MethodSection = () => (
   <SectionWrapper>
-    <div className="text-center mb-12">
+    <div className="text-center mb-4">
       <p className="text-muted-foreground mb-4">A maioria das pessoas acha que precisa de:</p>
       <div className="flex flex-col items-center gap-2 mb-8 text-lg">
         {["câmera cara", "edição avançada", "cenário perfeito"].map((item, i) => (
