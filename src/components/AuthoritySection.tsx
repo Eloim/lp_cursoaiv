@@ -15,8 +15,6 @@ const AuthoritySection = () => (
 
     <div className="grid md:grid-cols-2 gap-3 max-w-2xl mx-auto mb-8">
       {[
-        "Técnico de som ao vivo",
-        "Engenharia de áudio e gravação de álbuns",
         "Produção audiovisual",
         "Pós-produção de som para filmes",
         "Direção de fotografia",
