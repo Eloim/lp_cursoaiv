@@ -10,15 +10,22 @@ const HeroSection = () => (
     </div>
 
     <div className="relative z-10 max-w-4xl mx-auto px-4 text-center py-24 md:py-32">
-      <motion.h1
+      <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="font-display font-bold text-3xl md:text-5xl lg:text-6xl leading-tight mb-6"
+        className="mb-8"
       >
-        Seus vídeos não são ignorados por falta de conteúdo…{" "}
-        <span className="text-gradient-gold">eles são ignorados porque você ainda parece amador</span>
-      </motion.h1>
+        <p className="text-lg md:text-xl text-muted-foreground mb-4">
+          Seus vídeos não são ignorados por falta de conteúdo…
+        </p>
+        <h1 className="font-display font-black text-4xl md:text-6xl lg:text-7xl leading-none">
+          <span className="text-foreground/80 block mb-2">eles são ignorados porque você</span>
+          <span className="text-gradient-gold drop-shadow-[0_0_30px_hsl(var(--primary)/0.5)] text-5xl md:text-7xl lg:text-8xl">
+            AINDA PARECE AMADOR
+          </span>
+        </h1>
+      </motion.div>
 
       <motion.p
         initial={{ opacity: 0, y: 20 }}
