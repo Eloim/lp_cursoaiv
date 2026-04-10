@@ -30,7 +30,7 @@ const OfferSection = () => (
 
     <div className="text-center mb-10 p-8 rounded-xl bg-card border border-gold/30 glow-gold-sm max-w-lg mx-auto">
       <p className="text-muted-foreground line-through text-lg mb-1">De R$197</p>
-      <p className="font-display font-bold text-5xl md:text-6xl text-gradient-gold mb-2">R$67</p>
+      <p className="font-display font-bold text-5xl md:text-6xl text-gradient-gold mb-2">R$87</p>
       <p className="text-muted-foreground text-sm mb-6">Pagamento único · Parcelamento via Hotmart</p>
       <CTAButton className="w-full uppercase tracking-wider">QUERO ACESSO AGORA</CTAButton>
     </div>
