@@ -1,0 +1,29 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main, gh-pages] # Dispara o deploy ao enviar para estas branches
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write # ESSA É A LINHA QUE RESOLVE O SEU ERRO
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Set up Node
+        uses: actions/checkout@v4 # Apenas para garantir o ambiente
+        
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist # Ele vai subir o que estiver na pasta dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
