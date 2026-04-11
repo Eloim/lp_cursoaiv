@@ -14,7 +14,7 @@ const StorySection = () => (
           <img
             src={authorPhoto}
             alt="Eloim Machado Tavares"
-            className="w-full h-full object-cover object-top"
+            className="w-full h-full object-cover object-[center_20%]"
             width={256}
             height={256}
           />
