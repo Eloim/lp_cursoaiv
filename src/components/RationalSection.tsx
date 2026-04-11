@@ -24,7 +24,7 @@ const RationalSection = () => (
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ delay: i * 0.1 }}
-            className="relative p-6 rounded-xl bg-card border border-gold/20 hover:border-gold/50 transition-all group hover:glow-gold-sm"
+            className="relative p-6 rounded-xl glass-cool hover:border-gold/40 transition-all group hover:glow-gold-sm"
           >
             <div className="flex flex-col items-center gap-3">
               <div className="w-12 h-12 rounded-full bg-primary/15 flex items-center justify-center group-hover:bg-primary/25 transition-colors">

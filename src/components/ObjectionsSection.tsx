@@ -16,7 +16,7 @@ const ObjectionsSection = () => (
 
     <div className="space-y-4 max-w-2xl mx-auto">
       {objections.map((obj, i) => (
-        <div key={i} className="p-5 rounded-lg bg-secondary/30 border border-border">
+        <div key={i} className="p-5 rounded-lg glass-neutral hover:border-gold/20 transition-all">
           <p className="text-muted-foreground italic mb-2">{obj.q}</p>
           <p className="text-foreground font-medium">→ {obj.a}</p>
         </div>

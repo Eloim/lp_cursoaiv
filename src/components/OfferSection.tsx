@@ -20,7 +20,7 @@ const OfferSection = () => (
       {items.map((item, i) => (
         <div
           key={i}
-          className={`flex items-center gap-3 p-4 rounded-lg bg-secondary/40 border border-border ${i === 4 ? "md:col-span-2 md:max-w-sm md:mx-auto md:w-full" : ""}`}
+          className={`flex items-center gap-3 p-4 rounded-lg glass-gold hover:glow-gold-sm transition-all ${i === 4 ? "md:col-span-2 md:max-w-sm md:mx-auto md:w-full" : ""}`}
         >
           <item.icon className="w-6 h-6 text-primary shrink-0" />
           <span className="text-secondary-foreground">{item.text}</span>

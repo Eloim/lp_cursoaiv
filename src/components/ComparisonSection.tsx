@@ -11,7 +11,7 @@ const ComparisonSection = () => (
     </h2>
 
     <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
-      <div className="p-6 rounded-xl bg-destructive/10 border border-destructive/20">
+      <div className="p-6 rounded-xl glass-rose">
         <h3 className="font-display font-bold text-lg mb-4 text-center">Sem o método</h3>
         <ul className="space-y-3">
           {without.map((item, i) => (
@@ -22,7 +22,7 @@ const ComparisonSection = () => (
         </ul>
       </div>
 
-      <div className="p-6 rounded-xl bg-primary/10 border border-gold/30 glow-gold-sm">
+      <div className="p-6 rounded-xl glass-emerald glow-gold-sm">
         <h3 className="font-display font-bold text-lg mb-4 text-center">Com o método</h3>
         <ul className="space-y-3">
           {withMethod.map((item, i) => (

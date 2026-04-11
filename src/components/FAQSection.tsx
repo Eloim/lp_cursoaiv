@@ -17,7 +17,7 @@ const FAQSection = () => (
 
     <div className="space-y-4 max-w-2xl mx-auto">
       {faqs.map((faq, i) => (
-        <div key={i} className="p-5 rounded-lg bg-card border border-border">
+        <div key={i} className="p-5 rounded-lg glass-cool hover:border-gold/20 transition-all">
           <p className="font-display font-semibold text-foreground mb-2">{faq.q}</p>
           <p className="text-muted-foreground">{faq.a}</p>
         </div>

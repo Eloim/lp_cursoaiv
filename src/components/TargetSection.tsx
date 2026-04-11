@@ -19,7 +19,7 @@ const TargetSection = () => (
 
     <div className="space-y-4 max-w-2xl mx-auto mb-12">
       {targets.map((item, i) => (
-        <div key={i} className="flex items-center gap-3 p-4 rounded-lg bg-secondary/30 border border-border">
+        <div key={i} className="flex items-center gap-3 p-4 rounded-lg glass-warm hover:border-gold/30 transition-all">
           <span className="text-primary text-xl">✓</span>
           <span className="text-secondary-foreground">{item}</span>
         </div>
