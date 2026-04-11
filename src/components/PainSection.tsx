@@ -1,7 +1,7 @@
 import SectionWrapper from "./SectionWrapper";
 
 const PainSection = () => (
-  <SectionWrapper alternate>
+  <SectionWrapper alternate texture="diagonal">
     <div className="text-center max-w-2xl mx-auto">
       <h2 className="font-display font-bold text-2xl md:text-4xl mb-8">
         Você sabe que tem algo errado…

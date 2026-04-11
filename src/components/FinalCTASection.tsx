@@ -2,13 +2,13 @@ import { motion } from "framer-motion";
 import CTAButton from "./CTAButton";
 
 const FinalCTASection = () => (
-  <section className="py-20 md:py-32 px-4 bg-gradient-dark">
+  <section className="relative py-20 md:py-32 px-4 bg-gradient-dark bg-texture-radial">
     <motion.div
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.6 }}
-      className="max-w-3xl mx-auto text-center"
+      className="relative z-10 max-w-3xl mx-auto text-center"
     >
       <h2 className="font-display font-bold text-3xl md:text-5xl mb-6">
         Chegou a hora de{" "}

@@ -12,7 +12,7 @@ const targets = [
 ];
 
 const TargetSection = () => (
-  <SectionWrapper alternate>
+  <SectionWrapper alternate texture="diagonal">
     <h2 className="font-display font-bold text-2xl md:text-4xl text-center mb-10">
       Esse método é pra você que:
     </h2>

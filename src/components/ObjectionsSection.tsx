@@ -9,7 +9,7 @@ const objections = [
 ];
 
 const ObjectionsSection = () => (
-  <SectionWrapper alternate>
+  <SectionWrapper texture="dots">
     <h2 className="font-display font-bold text-2xl md:text-4xl text-center mb-10">
       Ainda tem dúvidas?
     </h2>

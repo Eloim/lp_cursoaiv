@@ -5,7 +5,7 @@ const without = ["Tentativa e erro", "Vídeos inconsistentes", "Baixa retenção
 const withMethod = ["Clareza total", "Ajustes rápidos", "Vídeos profissionais", "Mais atenção", "Mais autoridade"];
 
 const ComparisonSection = () => (
-  <SectionWrapper alternate>
+  <SectionWrapper alternate texture="grid">
     <h2 className="font-display font-bold text-2xl md:text-4xl text-center mb-10">
       A diferença é clara
     </h2>

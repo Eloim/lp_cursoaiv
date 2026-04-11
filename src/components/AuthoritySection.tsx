@@ -1,7 +1,7 @@
 import SectionWrapper from "./SectionWrapper";
 
 const AuthoritySection = () => (
-  <SectionWrapper>
+  <SectionWrapper alternate texture="radial">
     <p className="text-muted-foreground text-center mb-4">Eu não ensino vídeo baseado em teoria.</p>
 
     <h2 className="font-display font-bold text-2xl md:text-4xl text-center mb-2">
@@ -20,7 +20,7 @@ const AuthoritySection = () => (
         "Direção de fotografia",
         "Direção de projetos",
       ].map((item, i) => (
-        <div key={i} className="flex items-center gap-2 p-3 rounded bg-secondary/30">
+        <div key={i} className="flex items-center gap-2 p-3 rounded glass-warm">
           <span className="text-primary text-sm">●</span>
           <span className="text-secondary-foreground text-sm">{item}</span>
         </div>

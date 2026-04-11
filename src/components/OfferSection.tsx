@@ -11,7 +11,7 @@ const items = [
 ];
 
 const OfferSection = () => (
-  <SectionWrapper alternate id="oferta">
+  <SectionWrapper alternate id="oferta" texture="radial">
     <h2 className="font-display font-bold text-2xl md:text-4xl text-center mb-10">
       Ao entrar hoje, você recebe:
     </h2>
@@ -28,14 +28,14 @@ const OfferSection = () => (
       ))}
     </div>
 
-    <div className="text-center mb-10 p-8 rounded-xl bg-card border border-gold/30 glow-gold-sm max-w-lg mx-auto">
+    <div className="text-center mb-10 p-8 rounded-xl glass-gold glow-gold max-w-lg mx-auto">
       <p className="text-muted-foreground line-through text-lg mb-1">De R$197</p>
       <p className="font-display font-bold text-5xl md:text-6xl text-gradient-gold mb-2">R$87</p>
       <p className="text-muted-foreground text-sm mb-6">Pagamento único · Parcelamento via Hotmart</p>
       <CTAButton className="w-full uppercase tracking-wider">QUERO ACESSO AGORA</CTAButton>
     </div>
 
-    <div className="text-center p-6 rounded-lg bg-secondary/30 border border-border max-w-2xl mx-auto flex flex-col items-center gap-3">
+    <div className="text-center p-6 rounded-lg glass-neutral max-w-2xl mx-auto flex flex-col items-center gap-3">
       <ShieldCheck className="w-8 h-8 text-primary" />
       <h3 className="font-display font-bold text-xl">Garantia de 7 dias</h3>
       <p className="text-muted-foreground">

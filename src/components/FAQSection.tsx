@@ -10,7 +10,7 @@ const faqs = [
 ];
 
 const FAQSection = () => (
-  <SectionWrapper>
+  <SectionWrapper alternate texture="mesh">
     <h2 className="font-display font-bold text-2xl md:text-4xl text-center mb-10">
       Perguntas Frequentes
     </h2>
@@ -24,7 +24,7 @@ const FAQSection = () => (
       ))}
     </div>
 
-    <div className="mt-12 text-center p-6 rounded-lg bg-secondary/30 border border-border max-w-xl mx-auto flex flex-col items-center gap-3">
+    <div className="mt-12 text-center p-6 rounded-lg glass-warm max-w-xl mx-auto flex flex-col items-center gap-3">
       <Mail className="w-7 h-7 text-primary" />
       <h3 className="font-display font-bold text-lg">Suporte</h3>
       <p className="text-muted-foreground">
