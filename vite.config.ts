@@ -3,7 +3,7 @@ import react from '@vitejs/react-plugin-react' // ou o plugin que você usa
 import path from 'path'
 
 export default defineConfig({
-  base: '/lp_cursoaiv/',
+  base: '/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
