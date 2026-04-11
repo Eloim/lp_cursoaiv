@@ -11,7 +11,7 @@ const steps = [
 ];
 
 const MethodSection = () => (
-  <SectionWrapper>
+  <SectionWrapper texture="grid">
     <div className="-mt-40 text-center">
       <p className="text-muted-foreground">A maioria das pessoas acha que precisa de:</p>
       <div className="flex flex-col items-center gap-1 mb-6 text-lg">
@@ -54,7 +54,7 @@ const MethodSection = () => (
       ))}
     </div>
 
-    <div className="mt-12 text-center p-6 rounded-lg bg-primary/10 border border-gold/30">
+    <div className="mt-12 text-center p-6 rounded-lg glass-gold">
       <p className="text-lg">
         <strong className="text-gradient-gold text-xl">Resultado:</strong>{" "}
         O mesmo vídeo… com uma percepção completamente diferente

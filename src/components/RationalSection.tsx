@@ -10,7 +10,7 @@ const facts = [
 ];
 
 const RationalSection = () => (
-  <SectionWrapper>
+  <SectionWrapper texture="dots">
     <div className="max-w-3xl mx-auto text-center">
       <h2 className="font-display font-bold text-2xl md:text-4xl mb-10">
         Fatos que você não pode ignorar

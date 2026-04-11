@@ -1,7 +1,7 @@
 import SectionWrapper from "./SectionWrapper";
 
 const ProductSection = () => (
-  <SectionWrapper>
+  <SectionWrapper texture="mesh">
     <h2 className="font-display font-bold text-2xl md:text-4xl text-center mb-4">
       O <span className="text-gradient-gold">Autoridade Instantânea em Vídeo</span> é um curso 100% online, direto ao ponto.
     </h2>
@@ -23,7 +23,7 @@ const ProductSection = () => (
     <div className="mt-10 text-center">
       <p className="text-lg text-foreground mb-2">Você não vai estudar…</p>
       <p className="text-gradient-gold font-display font-bold text-2xl md:text-3xl uppercase tracking-wide">
-        Você vai ajustar e ver resultado no mesmo dia
+        VOCÊ VAI AJUSTAR E VER RESULTADO NO MESMO DIA
       </p>
     </div>
   </SectionWrapper>
