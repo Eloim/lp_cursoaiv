@@ -40,7 +40,7 @@ const MethodSection = () => (
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: i * 0.1 }}
-          className={`flex gap-4 items-start p-6 rounded-xl bg-secondary/50 border border-gold/20 hover:border-gold/50 transition-colors ${i === 4 ? "md:col-span-2 md:max-w-md md:mx-auto" : ""}`}
+          className={`flex gap-4 items-start p-6 rounded-xl glass-gold hover:border-gold/40 transition-all hover:glow-gold-sm ${i === 4 ? "md:col-span-2 md:max-w-md md:mx-auto" : ""}`}
         >
           <span className="flex items-center justify-center w-10 h-10 rounded-full bg-primary/20 text-primary font-display font-bold text-lg shrink-0">
             {step.num}

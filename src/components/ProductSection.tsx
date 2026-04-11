@@ -13,7 +13,7 @@ const ProductSection = () => (
         "Aplicação em tempo real (você assiste e já executa)",
         "Método estruturado do básico ao nível profissional",
       ].map((item, i) => (
-        <div key={i} className="flex items-center gap-3 text-secondary-foreground">
+        <div key={i} className="flex items-center gap-3 text-secondary-foreground p-3 rounded-lg glass-neutral">
           <span className="text-primary">▸</span>
           <span>{item}</span>
         </div>

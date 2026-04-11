@@ -1,13 +1,13 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/react-plugin-react' // ou o plugin que você usa
+import react from '@vitejs/plugin-react-swc'
 import path from 'path'
 
 export default defineConfig({
   base: '/',
+  plugins: [react()],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  // Mantenha o resto das suas configurações (server, etc)
 })
